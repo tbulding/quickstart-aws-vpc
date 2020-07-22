@@ -1,1 +1,3 @@
-// placeholder
+
+=== Launch a New VPC
+include::aws-vpc.template.adoc[]
