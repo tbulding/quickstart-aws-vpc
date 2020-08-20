@@ -2,14 +2,14 @@
 .Availability Zone Configuration
 [width="100%",cols="16%,11%,73%",options="header",]
 |===
-|Parameter label (name) |Default Value|Description|Availability Zones
-(`AvailabilityZones`)|`**__Requires Input__**`|List of Availability Zones to use for the subnets in the VPC. Note: The logical order is preserved.|Number of Availability Zones
+|Parameter label (name) |Default value|Description|Availability Zones
+(`AvailabilityZones`)|`**__Requires input__**`|List of Availability Zones to use for the subnets in the VPC. Note: The logical order is preserved.|Number of Availability Zones
 (`NumberOfAZs`)|`2`|Number of Availability Zones to use in the VPC. This must match your selections in the list of Availability Zones parameter.
 |===
 .Network Configuration
 [width="100%",cols="16%,11%,73%",options="header",]
 |===
-|Parameter label (name) |Default Value|Description|VPC CIDR
+|Parameter label (name) |Default value|Description|VPC CIDR
 (`VPCCIDR`)|`10.0.0.0/16`|CIDR block for the VPC|Create public subnets
 (`CreatePublicSubnets`)|`true`|Set to false to create only private subnets. If false, CreatePrivateSubnets must be True and the CIDR parameters for ALL public subnets will be ignored|Public subnet 1 CIDR
 (`PublicSubnet1CIDR`)|`10.0.128.0/20`|CIDR block for the public DMZ subnet 1 located in Availability Zone 1|Public subnet 2 CIDR
@@ -41,7 +41,7 @@
 .Deprecated: NAT Instance Configuration
 [width="100%",cols="16%,11%,73%",options="header",]
 |===
-|Parameter label (name) |Default Value|Description|Deprecated: Key pair name
+|Parameter label (name) |Default value|Description|Deprecated: Key pair name
 (`KeyPairName`)|`deprecated`|Deprecated. NAT gateways are now supported in all regions.|Deprecated: NAT instance type
 (`NATInstanceType`)|`deprecated`|Deprecated. NAT gateways are now supported in all regions.
 |===
